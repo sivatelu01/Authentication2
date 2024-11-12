@@ -1,0 +1,33 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"sivatelu11",
+    "username":"siva@@@123",
+    "password": "siva@@@123123",
+    "gender": "Male",
+    "location":"kkd"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"rahul123",
+    "password": "rahul@456"
+}
+
+
+###
+GET http://localhost:3000/books/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicmFodWwiLCJnZW5kZXIiOiJNYWxlIiwibG9jYXRpb24iOiJoeWRlcmFiYWQiLCJpYXQiOjE2MTc0MzI0MDd9.Eqevw5QE70ZAVrmOZUc6pflUbeI0ffZUmQLDHYplU8g
+
+
+
+
+
